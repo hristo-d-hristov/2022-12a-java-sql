@@ -2,7 +2,7 @@ DROP DATABASE IF EXISTS aurora;
 CREATE DATABASE aurora;
 USE aurora;
 CREATE TABLE potrebiteli(
-	id INT,
+	id INT AUTO_INCREMENT PRIMARY KEY,
 	name VARCHAR(255),
 	pass VARCHAR(255),
 	mail VARCHAR(255)
